@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logical Questions for Recent Interviews</title>
+    <meta name="description" content="Most asked logical, reasoning, and coding-logic questions in recent interviews across top companies." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero small">
+      <div class="container">
+        <p class="eyebrow">Logical & Reasoning Practice</p>
+        <h1>Most Asked Logical Questions in Recent Interviews</h1>
+        <p class="lead">A practical bank for Amazon, Microsoft, Google, Oracle, IBM, Adobe, TCS, Infosys, Capgemini, Accenture, Deloitte, Cognizant, and other companies.</p>
+        <div class="actions">
+          <a class="btn primary" href="index.html">Back to Home</a>
+          <a class="btn secondary" href="Complete_MNC_Interview_Preparation_Guide_for_Amir_Saifi.html">Open Full Book</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h2>How to answer these questions well</h2>
+        <ul>
+          <li>Explain your approach before coding or reasoning</li>
+          <li>Discuss edge cases and constraints</li>
+          <li>Compare brute force versus optimized solutions</li>
+          <li>Talk about time complexity and space complexity</li>
+          <li>Use simple, confident language</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Top logical questions</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Question</th>
+              <th>What they test</th>
+              <th>Good approach</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Find the second highest number in an array.</td><td>Logic and edge cases</td><td>Scan once while tracking top two values.</td></tr>
+            <tr><td>Check if two strings are anagrams.</td><td>Hashing and frequency counting</td><td>Compare character counts or sort both strings.</td></tr>
+            <tr><td>Find the first non-repeating character in a string.</td><td>Frequency map</td><td>Use counts and first occurrence index.</td></tr>
+            <tr><td>Find duplicates in an array.</td><td>Set or hashing</td><td>Track seen values and report duplicates.</td></tr>
+            <tr><td>Reverse a string without using extra space.</td><td>In-place manipulation</td><td>Swap characters from both ends.</td></tr>
+            <tr><td>Check if a string is a palindrome.</td><td>Two pointers</td><td>Compare characters from both ends.</td></tr>
+            <tr><td>Merge overlapping intervals.</td><td>Sorting and grouping</td><td>Sort by start and merge when overlapping.</td></tr>
+            <tr><td>Find the longest substring without repeating characters.</td><td>Sliding window</td><td>Use a window and a set/map for last seen positions.</td></tr>
+            <tr><td>Find the maximum subarray sum.</td><td>Dynamic programming / Kadane</td><td>Keep running sum and best sum.</td></tr>
+            <tr><td>Validate balanced parentheses.</td><td>Stack usage</td><td>Push opening brackets and pop on closing ones.</td></tr>
+            <tr><td>Find the missing number in an array.</td><td>Math or XOR</td><td>Use sum formula or XOR approach.</td></tr>
+            <tr><td>Find the majority element.</td><td>Voting algorithm</td><td>Use Boyer-Moore majority vote.</td></tr>
+            <tr><td>Rotate an array by k positions.</td><td>Array manipulation</td><td>Reverse in place or use modular indexing.</td></tr>
+            <tr><td>Move all zeros to the end.</td><td>Two pointers</td><td>Maintain a pointer for the next non-zero.</td></tr>
+            <tr><td>Find the intersection of two arrays.</td><td>Set operations</td><td>Use hash set for faster lookup.</td></tr>
+            <tr><td>Count the number of islands in a grid.</td><td>DFS/BFS</td><td>Traverse connected land cells and mark visited.</td></tr>
+            <tr><td>Check if a binary tree is balanced.</td><td>Tree traversal</td><td>Use recursion and height check.</td></tr>
+            <tr><td>Find the lowest common ancestor in a binary tree.</td><td>Tree reasoning</td><td>Use recursion based on node positions.</td></tr>
+            <tr><td>Perform level-order traversal of a binary tree.</td><td>BFS</td><td>Use a queue.</td></tr>
+            <tr><td>Detect a cycle in a linked list.</td><td>Fast/slow pointer</td><td>Use Floyd’s tortoise and hare.</td></tr>
+            <tr><td>Reverse a linked list.</td><td>Pointer manipulation</td><td>Iteratively update next pointers.</td></tr>
+            <tr><td>Implement LRU cache.</td><td>Data structure design</td><td>Use hashmap + doubly linked list.</td></tr>
+            <tr><td>Find the k-th largest element in a stream.</td><td>Heap logic</td><td>Use a min-heap of size k.</td></tr>
+            <tr><td>Top K frequent elements.</td><td>Heap and hash map</td><td>Count frequencies and use a heap.</td></tr>
+            <tr><td>Find all pairs whose sum equals target.</td><td>Hash map</td><td>Store seen numbers and look for complements.</td></tr>
+            <tr><td>Find the longest common prefix.</td><td>String comparison</td><td>Compare each string with the first.</td></tr>
+            <tr><td>Group anagrams together.</td><td>Hashing</td><td>Use sorted string or character counts as key.</td></tr>
+            <tr><td>Check if a number is prime.</td><td>Math reasoning</td><td>Check divisibility up to sqrt(n).</td></tr>
+            <tr><td>Find the factorial of a number.</td><td>Recursion basics</td><td>Use recursion or iterative loop.</td></tr>
+            <tr><td>Find Fibonacci numbers efficiently.</td><td>DP / iterative optimization</td><td>Use iterative DP instead of naive recursion.</td></tr>
+            <tr><td>Count ways to climb stairs.</td><td>DP</td><td>Use previous two states.</td></tr>
+            <tr><td>Knapsack-like problem reasoning.</td><td>DP</td><td>Define state and transition carefully.</td></tr>
+            <tr><td>Find the shortest path in a graph.</td><td>BFS / Dijkstra</td><td>Use BFS for unweighted, Dijkstra for weighted.</td></tr>
+            <tr><td>Detect whether a graph has a cycle.</td><td>DFS/Union-Find</td><td>Track visited states and parent relations.</td></tr>
+            <tr><td>Convert decimal to binary.</td><td>Bit manipulation</td><td>Use repeated division.</td></tr>
+            <tr><td>Count set bits in an integer.</td><td>Bit manipulation</td><td>Use bitwise shift and mask.</td></tr>
+            <tr><td>Find the power of two.</td><td>Bit trick</td><td>Check if n & (n - 1) is zero.</td></tr>
+            <tr><td>Find if a number is a palindrome.</td><td>Math / string</td><td>Reverse digits or compare digits from both ends.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <h2>Common company-specific angles</h2>
+        <ul>
+          <li><strong>Amazon:</strong> scalability, trade-offs, optimization, and ownership.</li>
+          <li><strong>Microsoft:</strong> design clarity, debugging depth, and maintainability.</li>
+          <li><strong>Google:</strong> algorithm quality, edge cases, and clean explanation.</li>
+          <li><strong>Oracle / IBM / Adobe:</strong> practical problem solving and production mindset.</li>
+          <li><strong>TCS / Infosys / Capgemini / Accenture / Deloitte / Cognizant:</strong> fundamentals, communication, and delivery focus.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Practice plan for one week</h2>
+        <ol>
+          <li>Day 1: arrays and strings</li>
+          <li>Day 2: hashing and two pointers</li>
+          <li>Day 3: stacks and queues</li>
+          <li>Day 4: trees and graphs</li>
+          <li>Day 5: dynamic programming basics</li>
+          <li>Day 6: mock interview with timed answers</li>
+          <li>Day 7: review mistakes and refine explanations</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Use these questions to build confidence and improve clarity under pressure.</p>
+      </div>
+    </footer>
+  </body>
+</html>
